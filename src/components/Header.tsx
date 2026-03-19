@@ -3,11 +3,12 @@ import { GraduationCap, Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
-  { label: "Contatos", href: "#contatos" },
-  { label: "Links", href: "#links" },
-  { label: "Orientações", href: "#orientacoes" },
+  { label: "Home", href: "#" },
+  { label: "Procedimentos", href: "#procedimentos" },
+  { label: "Links importantes", href: "#links-importantes" },
   { label: "Avisos", href: "#avisos" },
-  { label: "Calendário", href: "#calendario" },
+  { label: "Calendario", href: "#calendario" },
+  { label: "Pessoas", href: "#pessoas" },
 ];
 
 const Header = () => {
@@ -18,7 +19,7 @@ const Header = () => {
       <div className="container flex h-16 items-center justify-between">
         <a href="#" className="flex items-center gap-2 text-primary font-semibold text-lg">
           <GraduationCap className="h-6 w-6" />
-          <span className="hidden sm:inline">Portal do Professor</span>
+          <span className="hidden sm:inline">Portal de comunicação</span>
         </a>
 
         {/* Desktop nav */}

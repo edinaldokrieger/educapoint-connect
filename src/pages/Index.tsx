@@ -13,11 +13,11 @@ const Index = () => {
       <Header />
       <main className="flex-1">
         <HeroSection />
-        <ContatosSection />
-        <LinksSection />
         <OrientacoesSection />
+        <LinksSection />
         <AvisosSection />
         <CalendarioSection />
+        <ContatosSection />
       </main>
       <Footer />
     </div>
